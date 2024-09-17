@@ -1,0 +1,148 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: black;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+form:hover {
+    box-shadow: 0px 4px 8px rgba(0, 132, 255);
+}
+
+fieldset {
+    border: 2px solid #334499;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+fieldset:hover {
+    box-shadow: 0px 4px 8px rgba(0, 132, 255);
+}
+
+legend {
+    font-size: 150%;
+    font-weight: bold;
+    text-align: left;
+    color: rgb(184, 206, 224);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+textarea {
+    color: rgb(0, 0, 0);
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid rgb(0, 132, 255);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input {
+    color: rgb(0, 0, 0);
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid rgb(0, 132, 255);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea:hover, input:hover {
+    box-shadow: 0px 4px 8px rgba(0, 132, 255);
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #334499;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    background-color: #002aff;
+    border-color: aliceblue;
+    box-shadow: 0px 4px 8px rgba(0, 132, 255);
+}
+
+#resumeOutput {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #334499;
+    border-radius: 8px;
+    background-color: rgb(0, 0, 0);
+}
+
+#resumeOutput:hover {
+    box-shadow: 0 4px 8px rgba(0, 132, 255);
+}
+
+#resumeOutput h2, h3, p {
+    color: aliceblue;
+}
+
+.profilePicture {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #334499;
+    box-shadow: 0 4px 8px rgba(0, 132, 255);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.editing-input {
+    border: 2px solid rgba(0, 132, 255, 0.6);
+    padding: 5px;
+}
+
+#shareResume, #downloadResume {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #334499;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#shareResume:hover, #downloadResume:hover {
+    background-color: #002aff;
+    border-color: aliceblue;
+}
+
+#resumeUrl {
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid rgb(0, 132, 255);
+    border-radius: 4px;
+    box-sizing: border-box;
+}

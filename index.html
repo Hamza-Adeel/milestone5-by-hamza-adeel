@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Generator</title>
+    <link rel="stylesheet" href="style.css">     
+</head>
+<body>
+    <h1>Editable Resume Builder By Hamza Adeel</h1>
+    <form id="resumeform">
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="resumeUrl">Resume URL: </label>
+            <textarea id="resumeUrl" name="resumeUrl" placeholder="Enter your custom URL (e.g., johnDoe.vercel.app/resume)"></textarea>
+
+            <label for="profilePicture">Profile Picture</label>
+            <input type="file" id="profilePicture" name="profilePicture" accept="image/*" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Education</legend>
+            <label for="education">Education</label>
+            <textarea name="education" id="education" rows="4"></textarea><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Experience</legend>
+            <label for="experience">Experience</label>
+            <textarea name="experience" id="experience" rows="4"></textarea><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="skills">Skills</label>
+            <textarea name="skills" id="skills" rows="4"></textarea><br>
+        </fieldset>
+
+        <button type="submit">Generate Resume Now</button>
+    </form>
+
+    <div id="resumeOutput"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
